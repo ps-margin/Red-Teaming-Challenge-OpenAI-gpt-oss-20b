@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Pulkit Jai
+Copyright (c) 2026 Pulkit Jai
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,23 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-ADDITIONAL SAFETY NOTICE:
-
-This software is designed for legitimate AI safety research and vulnerability 
-disclosure purposes only. Any use of this software for malicious purposes, 
-including but not limited to generating harmful content, circumventing safety 
-measures in production systems, or causing harm to individuals or organizations, 
-is strictly prohibited and may violate applicable laws.
-
-Users of this software agree to:
-1. Use the software only for legitimate research and safety purposes
-2. Follow responsible disclosure practices
-3. Comply with all applicable laws and regulations
-4. Not use the software to cause harm or enable harmful activities
-
-The authors and contributors to this software disclaim any responsibility for 
-misuse of this tool and strongly encourage ethical use in the advancement of 
-AI safety research.
