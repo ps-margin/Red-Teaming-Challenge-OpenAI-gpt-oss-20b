@@ -1,8 +1,10 @@
 # ARTEMIS
 
-A reproduction harness for a Chain-of-Thought reasoning-manipulation vulnerability in
-`gpt-oss-20b`, built for the [OpenAI gpt-oss-20b Red-Teaming Challenge][challenge]
-(Honorable Mention). Write-up: [Kaggle][writeup].
+A Chain-of-Thought reasoning-manipulation vulnerability found in `gpt-oss-20b`, and the
+harness that reproduces it. Entered in the [OpenAI gpt-oss-20b Red-Teaming
+Challenge][challenge] — which asked entrants to find *previously undetected* weaknesses
+and submit a reproducible report — and awarded an Honorable Mention. Write-up:
+[Kaggle][writeup].
 
 The finding: the model validates the *format* of a reasoning chain more than its
 *content*. Text shaped like the model's own analysis channel — asserting that a request
@@ -166,8 +168,11 @@ with error bars, plus a second judge to cross-check the first.
 
 ## Scope
 
-Published for AI safety research: reproducing a disclosed weakness so it can be measured
-and fixed. The attack strings target guardrail behavior rather than the harmful
+Published for AI safety research. The weakness was found here rather than reproduced from
+someone else's disclosure; "reproduction" throughout this repository refers to the
+challenge's requirement that a finding come with a report reproducing *itself*, which is
+what the harness, notebook, and report JSON exist to do. The attack strings target
+guardrail behavior rather than the harmful
 procedures themselves; what is retained of the model's harmful replies is the opening
 sentence in which it agrees to comply, which demonstrates the failure without carrying
 the content. The finding was submitted to OpenAI through the challenge, and the notebook
