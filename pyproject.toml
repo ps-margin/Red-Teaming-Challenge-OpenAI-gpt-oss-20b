@@ -7,9 +7,11 @@ authors = [
     {name = "Pulkit Jai"},
 ]
 license = {text = "MIT"}
-keywords = ["artemis", "ai-safety", "red-teaming", "vulnerability", "chain-of-thought", "stark-tech"]
+keywords = ["artemis", "ai-safety", "red-teaming", "vulnerability", "chain-of-thought", "llm-evaluation"]
 classifiers = [
-    "Development Status :: 5 - Production/Stable",
+    # Beta, not Production/Stable: this is a research harness that ran one
+    # sweep over three prompts. See ERRATUM.md.
+    "Development Status :: 4 - Beta",
     "Intended Audience :: Science/Research",
     "License :: OSI Approved :: MIT License",
     "Programming Language :: Python :: 3",
@@ -30,7 +32,11 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/overview"
+Homepage = "https://github.com/ps-margin/Red-Teaming-Challenge-OpenAI-gpt-oss-20b"
+Repository = "https://github.com/ps-margin/Red-Teaming-Challenge-OpenAI-gpt-oss-20b"
+# The write-up, by DOI rather than a Kaggle URL that moves.
+Documentation = "https://doi.org/10.34740/kaggle/w/16774"
+Erratum = "https://github.com/ps-margin/Red-Teaming-Challenge-OpenAI-gpt-oss-20b/blob/main/ERRATUM.md"
 
 [project.scripts]
 artemis = "artemis_redteam.cli:main"
